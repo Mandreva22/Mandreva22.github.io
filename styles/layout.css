@@ -1,0 +1,41 @@
+﻿/* Etiquetas DIV */
+body {
+   
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#container {
+	background-image: url('../images/logo.png');
+	background-repeat: no-repeat;
+	
+	width: 80%;
+	margin:  0px 100px 0px 100px;
+	padding: 0;
+	border: 0;
+}
+
+#iMenu {
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#column_l {
+    width: 80%;
+    position: relative;
+ 
+    float: left;
+    margin: 0;
+}
+#column_r {
+    width: 20%;
+    position: relative;
+    float: right;
+    margin: 0;
+
+#content {
+	width: 100%;
+    top: 2px;
+    left: -69px;
