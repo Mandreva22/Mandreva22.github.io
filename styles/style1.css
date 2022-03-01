@@ -1,37 +1,47 @@
-﻿@import url("layout.css");
+﻿
 body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    background-color: white;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+	
 }
 #container {
-
-	background-color: #fff;
+	/*background-image: url('../images/MandrevaLogo.png');*/
+	background-color: white;
+	
+	/*width:500px;*/
+		
+	
+	
 }
 #masthead {
 	text-align: center;
-	background-color: #fff;
-
+	background-color: white;
+	
 }
 #navigation {
-	border-top: 1px solid #808080;
-	border-bottom: 1px solid #808080;
-	background-color: #cdc;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+    background-color: #cdc;
+    width: 100%;
 }
 html>body #navigation {
 	overflow: hidden;
 }
 
 #content {
-	background-color: #fff;
+    background-color: white;
 }
 
 /* Cabecera */
+
+
+
 #masthead h1 {
 	color: #000;
 	margin-bottom: 0;
 }
 #masthead h3 {
-	color: #9a9;
+	color:midnightblue;
 	margin-top: 0.5em;
 }
 /* Exploración */
@@ -55,7 +65,7 @@ html>body #navigation {
 #navigation a:hover {
 	font-weight: bold;
 	text-decoration: none;
-	color: #fff;
+	color: white;
 	border: 1px solid #c77;
 	background-color: #c77;
 }
